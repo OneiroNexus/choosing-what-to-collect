@@ -1,0 +1,26 @@
+{
+  "title": "Choosing What to Collect: Deliberate Selection Against Indiscriminate Pulling, and a Source-Checked Delineation of Open Archives to Pick, Hold, Refuse and Retire",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "<p>Aaron Michael Weis proposes choosing public research data against a stated goal. The paper compares archive policies and describes decisions to collect narrowly, hold, decline, or propose retirement. Six statements were matched to exact text from publisher or maintainer pages. A synthetic benchmark reproduced across 720 cases. The four proposed tests of dataset selection remain unrun.</p><p>Aaron Michael Weis conducted the research and directed the paper. Claude (Anthropic) assisted with drafting and source checks. Codex (OpenAI) prepared the public edition and reran the evidence tools.</p>",
+  "creators": [
+    {
+      "name": "Weis, Aaron Michael",
+      "affiliation": "Oneiron Holdings LLC",
+      "orcid": "0009-0002-1906-148X"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "v0.5",
+  "keywords": [
+    "dataset selection",
+    "data provenance",
+    "data poisoning",
+    "open data",
+    "licensing",
+    "data retirement"
+  ],
+  "language": "eng",
+  "access_right": "open",
+  "publication_date": "2026-11-22"
+}

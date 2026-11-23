@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Choosing What to Collect: Deliberate Selection Against Indiscriminate Pulling, and a Source-Checked Delineation of Open Archives to Pick, Hold, Refuse and Retire"
+type: generic
+authors:
+  - family-names: "Weis"
+    given-names: "Aaron Michael"
+    orcid: "https://orcid.org/0009-0002-1906-148X"
+    affiliation: "Oneiron Holdings LLC"
+version: "v0.5"
+date-released: "2026-11-22"
+license: "CC-BY-4.0"
+keywords:
+  - dataset selection
+  - data provenance
+  - data poisoning
+  - open data
+  - licensing
+  - data retirement
+url: "https://github.com/OneiroNexus/choosing-what-to-collect"
