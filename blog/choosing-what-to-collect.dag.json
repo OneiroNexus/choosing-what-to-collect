@@ -1,0 +1,122 @@
+{
+  "schema_version": "prose-public-dag-2",
+  "nodes": [
+    {
+      "id": "author",
+      "kind": "person",
+      "label": "Aaron Michael Weis",
+      "facts": {
+        "public_url": "https://orcid.org/0009-0002-1906-148X"
+      }
+    },
+    {
+      "id": "edition",
+      "kind": "publication",
+      "label": "Choosing What to Collect v0.5",
+      "facts": {
+        "public_url": "https://doi.org/10.5281/zenodo.24453274"
+      }
+    },
+    {
+      "id": "toronto-license",
+      "kind": "source",
+      "label": "Open Government Licence – Toronto",
+      "facts": {
+        "public_url": "https://open.toronto.ca/open-data-licence/"
+      }
+    },
+    {
+      "id": "replay",
+      "kind": "source",
+      "label": "Edition check in section 12.6",
+      "facts": {
+        "public_url": "https://github.com/OneiroNexus/choosing-what-to-collect/blob/bacdda700d6258cf6c21e09970c9885ecaed2a32/paper/PAPER_v0.5_2026-11-22.md#126-checks-on-the-public-edition"
+      }
+    },
+    {
+      "id": "h4",
+      "kind": "source",
+      "label": "Hypothesis H4 in section 8",
+      "facts": {
+        "public_url": "https://github.com/OneiroNexus/choosing-what-to-collect/blob/bacdda700d6258cf6c21e09970c9885ecaed2a32/paper/PAPER_v0.5_2026-11-22.md#8-hypotheses-and-tests"
+      }
+    },
+    {
+      "id": "scope-license",
+      "kind": "limit",
+      "label": "Coverage and attribution instructions must be checked per item."
+    },
+    {
+      "id": "scope-check",
+      "kind": "limit",
+      "label": "Matching source text checks its wording."
+    },
+    {
+      "id": "scope-test",
+      "kind": "limit",
+      "label": "The retirement experiment has yet to be run."
+    },
+    {
+      "id": "toronto-credit",
+      "kind": "claim",
+      "label": "Toronto requires acknowledgement for covered uses."
+    },
+    {
+      "id": "six-passages",
+      "kind": "claim",
+      "label": "Six narrow statements matched source passages."
+    },
+    {
+      "id": "retirement-test",
+      "kind": "claim",
+      "label": "The author proposes testing removal of records lacking a written goal."
+    }
+  ],
+  "edges": [
+    {
+      "from": "author",
+      "to": "edition",
+      "relation": "authored"
+    },
+    {
+      "from": "edition",
+      "to": "replay",
+      "relation": "contains"
+    },
+    {
+      "from": "edition",
+      "to": "h4",
+      "relation": "contains"
+    },
+    {
+      "from": "toronto-license",
+      "to": "toronto-credit",
+      "relation": "supports"
+    },
+    {
+      "from": "scope-license",
+      "to": "toronto-credit",
+      "relation": "limits"
+    },
+    {
+      "from": "replay",
+      "to": "six-passages",
+      "relation": "supports"
+    },
+    {
+      "from": "scope-check",
+      "to": "six-passages",
+      "relation": "limits"
+    },
+    {
+      "from": "h4",
+      "to": "retirement-test",
+      "relation": "supports"
+    },
+    {
+      "from": "scope-test",
+      "to": "retirement-test",
+      "relation": "limits"
+    }
+  ]
+}

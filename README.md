@@ -4,6 +4,8 @@ Aaron Michael Weis · Oneiron Holdings LLC · ORCID [0009-0002-1906-148X](https:
 
 How do you decide whether a public record belongs in a research collection? Aaron Michael Weis proposes starting with a written goal, then checking the record’s provenance, permissions, and relevance. The paper compares archive policies, documents six exact-source checks, and proposes four tests for future work. [Read the paper](paper/PAPER_v0.5_2026-11-22.md).
 
+[Archived preprint on Zenodo · DOI 10.5281/zenodo.24453274](https://doi.org/10.5281/zenodo.24453274) · [Read the companion article](blog/choosing-what-to-collect.md)
+
 ## Files
 
 - `paper/PAPER_v0.5_2026-11-22.md`: the paper.
